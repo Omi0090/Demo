@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+frontend/dist/
+ml/data/*
+!ml/data/.gitkeep
+ml/saved_models/*
+!ml/saved_models/.gitkeep
+reports/
+*.joblib
+*.db
+.pgdata/
+frontend/test-results/
+frontend/playwright-report/
